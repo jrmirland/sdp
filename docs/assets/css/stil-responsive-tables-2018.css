@@ -61,7 +61,7 @@
         /* TRUNCATES THE HEADER ROWS TH CELLS */
         display: block;
         overflow: hidden;
-        width: 110px;
+        width: 100px;
         white-space: nowrap;
         text-overflow: ellipsis;
     }
