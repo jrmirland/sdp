@@ -333,6 +333,7 @@
     textarea,
     select,
     button {
+        padding-left:0.5rem;
         font-family: 'IBM Plex Sans', Tahoma, sans-serif;
         font-size: 1.6rem;
         font-weight: 400;
@@ -629,7 +630,7 @@
     .single-line {
         display: block;
         min-width: 15rem;
-        max-width: 25rem;
+        max-width: 20rem;
         word-wrap: break-word;
     }
 
@@ -708,16 +709,14 @@
     }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 768px) {}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .single-line {
+        min-width: 10rem;
+        max-width: 20rem;
+    }
+}
 
 @media only screen and (max-width: 600px) {
-    /*nav .stil-primary-button {
-        padding: 4px 8px;
-        font-size: 1.4rem;
-    }
-    .stil-topmenu {
-        height: 40px;
-    }*/
     .hide-on-mobile {
         display: none;
     }

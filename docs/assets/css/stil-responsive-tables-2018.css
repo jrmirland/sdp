@@ -53,6 +53,7 @@
 }
 
 @media only screen and (max-width: 768px) {
+    
     .stil-folding-table {
         max-width: 100%;
         table-layout: fixed;
@@ -64,6 +65,10 @@
         width: 100px;
         white-space: nowrap;
         text-overflow: ellipsis;
+    }
+    .single-line {
+        min-width: 10rem;
+        max-width: 20rem;
     }
 }
 
