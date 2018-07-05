@@ -725,6 +725,11 @@
         border-bottom:none;        
     }
     
+    button:focus,
+    input:focus,
+    select:focus,
+    .stil-topmenu a:focus,
+    .tile-link:focus,
     a.selected:focus {    
         outline: none;
     }
