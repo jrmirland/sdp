@@ -720,6 +720,14 @@
     .hide-on-mobile {
         display: none;
     }
+    a.selected {
+        font-weight: 700;
+        border-bottom:none;        
+    }
+    
+    a.selected:focus {    
+        outline: none;
+    }
 }
 
 @media only screen and (max-width: 480px) {
