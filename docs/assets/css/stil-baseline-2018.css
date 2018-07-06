@@ -387,6 +387,9 @@
         outline: none;
         background: #febb30;
     }
+    a.selected:focus {
+        outline:none;
+    }
     .tile-link:hover {
         opacity:0.9;
     }
