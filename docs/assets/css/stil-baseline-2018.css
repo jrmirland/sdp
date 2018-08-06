@@ -722,7 +722,11 @@
 @media only screen and (max-width: 600px) {
     .hide-on-mobile {
         display: none;
-    }
+    }  
+    .stil-logo {
+    display: none;
+  }
+
     a.selected {
         font-weight: 700;
         border-bottom:none;        
