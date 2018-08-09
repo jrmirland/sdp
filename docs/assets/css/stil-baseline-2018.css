@@ -717,9 +717,6 @@
         min-width: 10rem;
         max-width: 20rem;
     }
-    .stil-tjeneste-navn {
-        font-size:2.2rem;
-    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -729,6 +726,9 @@
     .stil-logo {
     display: none;
   }
+    .stil-tjeneste-navn {
+        font-size:2.2rem;
+    }
 
     a.selected {
         font-weight: 700;
