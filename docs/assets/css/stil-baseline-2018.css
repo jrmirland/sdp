@@ -359,16 +359,14 @@
     }
     td {}
     a {
-        padding-bottom: 0;
-        text-decoration: none;
+        text-decoration: underline;
+        text-underline-position:below;
         color: #004e6c;
-        border-bottom: 1px solid #537A93;
         transition-duration: 0.2s;
     }
 
     a:hover {
         color: #000000;
-        border-bottom: 1px solid #000;
     }
 
     a.visited {
