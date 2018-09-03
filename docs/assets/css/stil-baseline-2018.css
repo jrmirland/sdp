@@ -212,7 +212,6 @@
     .stil-h1 {
         margin: 0 0 1.6rem 0;
         padding: 0;
-        font-style: bold;
         font-weight: 700;
         font-size: 3.2rem;
         line-height: 4rem;
@@ -222,9 +221,8 @@
     .stil-h2 {
         margin: 3.2rem 0 0.8rem 0;
         padding: 0;
-        font-style: normal;
-        font-weight: 700;
         font-size: 2.4rem;
+        font-weight: 600;
         line-height: 3.2rem;
     }
 
@@ -238,14 +236,12 @@
         padding: 0;
         font-weight: 700;
         font-size: 1.8rem;
-        font-style: normal;
         line-height: 2.4rem;
     }
     h4,
     .stil-h4 {
         margin: 0 0 0.8rem 0;
         padding: 0;
-        font-style: normal;
         font-weight: 700;
         font-size: 1.6rem;
         line-height: 2.4rem;
@@ -255,8 +251,7 @@
     .stil-h5 {
         margin: 3.2rem 0 0 0;
         padding: 0;
-        font-style: normal;
-        font-weight: 400;
+        font-weight: 700;
         font-size: 1.6rem;
         line-height: 2.4rem;
     }
@@ -265,8 +260,7 @@
     .stil-h6 {
         margin: 3.2rem 0 0 0;
         padding: 0;
-        font-style: normal;
-        font-weight: 400;
+        font-weight: 700;
         font-size: 1.4rem;
         line-height: 2.4rem;
         text-transform: uppercase;
@@ -276,7 +270,6 @@
         /* MAX LINE-WIDTH FOR READABILITY */
         margin: 0.8rem 0 3.2rem 0;
         padding: 0;
-        font-style: normal;
         font-weight: 400;
         font-size: 1.6rem;
         line-height: 2.4rem;
@@ -316,7 +309,7 @@
     }
     
     .stil-footer .nobullet .em-light {
-        font-style: normal; 
+        font-weight: 400; 
     }
     .stil-footer .nobullet span {
         font-size:1.4rem;
