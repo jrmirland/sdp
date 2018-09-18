@@ -25,6 +25,7 @@
     <meta name="msapplication-config" content="assets/img/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <style>
+        /* FOR CONTROLLING IMG AND VIDEO MAINLY */
         .stil-size-s {
             max-width: 24rem;
         }
@@ -41,22 +42,22 @@
         }
 
         .stil-figure {
+            min-width:300px;
             margin: 0;
-            padding: 10px;
+            padding: 8px;
         }
 
         .stil-figure figcaption {
-            padding: 20px;
+            padding: 16px;
             text-align: center
         }
 
-        .stil-video-iframe-container {
+        .stil-responsive-iframe-container {
             position: relative;
-            padding-top: 56.25%;
             overflow: hidden;
         }
 
-        .stil-video-iframe-container iframe {
+        .stil-responsive-iframe-container iframe {
             position: absolute;
             width: 100%;
             height: 100%;
@@ -65,9 +66,13 @@
             border: 0;
         }
 
-        /* 4x3 Aspect Ratio */
-
-        .iframe-container-4x3 {
+        /* 16x9 ASPECT RATIO */
+        .aspect-16x9 {
+            padding-top: 56.25%;
+        }
+        
+        /* 4x3 ASPECT RATIO */
+        .aspect-4x3 {
             padding-top: 75%;
         }
     </style>
@@ -122,7 +127,7 @@
                 </div>
                 <div class="stil-col">
                     <figure class="stil-figure stil-size-xl antracit-5">
-                        <div class="stil-video-iframe-container">
+                        <div class="stil-responsive-iframe-container aspect-16x9">
                             <iframe src="https://www.youtube.com/embed/_CpUvVphgJI" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
                         <figcaption>Creature Comforts, Season 2</figcaption>
