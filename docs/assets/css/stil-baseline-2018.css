@@ -754,15 +754,16 @@
     min-width: 10rem;
     max-width: 20rem;
   }
-    .stil-header {        
-    align-items: center;
-    }
 }
 
 @media only screen and (max-width: 600px) {
   .hide-on-mobile {
     display: none;
   }
+
+    .stil-header {        
+    align-items: center;
+    }
 
   .stil-logo {
     display: none;
